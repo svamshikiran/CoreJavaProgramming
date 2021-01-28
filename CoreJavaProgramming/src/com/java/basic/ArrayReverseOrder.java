@@ -11,6 +11,14 @@ public class ArrayReverseOrder {
 		{
 			System.out.println(intArray[index]);
 		}
+		
+		int position = intArray.length-1;
+		System.out.println("Output of this WHILE loop");
+		
+		while (position >=0) {
+			System.out.println(intArray[position]);
+			position--;
+		}
 	}
 
 }
